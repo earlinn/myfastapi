@@ -9,6 +9,10 @@ readme = "README.md"
 python = "^3.10"
 fastapi = {extras = ["all"], version = "^0.110.0"}
 uvicorn = {extras = ["standard"], version = "^0.28.0"}
+sqlalchemy = "^2.0.28"
+alembic = "^1.13.1"
+psycopg2-binary = "^2.9.9"
+aiosqlite = "^0.20.0"
 
 
 [tool.poetry.group.dev.dependencies]
